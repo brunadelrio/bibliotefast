@@ -1,4 +1,4 @@
-from django.conf.urls import url
+from django.conf.urls import url, include
 from estante import views
 from estante.views import *
 from django.views.generic.base import TemplateView
@@ -22,4 +22,6 @@ urlpatterns = [
     url(r'^procurar/$', Procurar.as_view(), name='procurar_livro'),
     url(r'^devolver/(?P<id>\w+)/$', views.Devolver, name='devolver_livro'),
     url(r'', TemplateView.as_view(template_name='404.html'), name='404'),
+    #url(r'^accounts/', include('registration.backends.default.urls')),
+
 ]
