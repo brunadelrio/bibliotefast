@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2437b32b-2463-4b9c-a9ed-9ee069f129a4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/bibliotefast.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bibliotefast.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/views.rst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estante/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/estante/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,23 +33,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
-          <entry key="py" value="9" />
+          <entry key="py" value="10" />
+          <entry key="rst" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="Python" value="9" />
+          <entry key="Python" value="10" />
+          <entry key="ReST" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="254" />
+          <entry key="py" value="283" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="254" />
+          <entry key="Python" value="283" />
         </counts>
       </usages-collector>
     </session>
@@ -75,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/projeto/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
-              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
               <folding>
                 <element signature="e#616#657#0" expanded="true" />
               </folding>
@@ -83,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/estante/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="71" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="71" />
+            <state relative-caret-position="249">
+              <caret line="24" column="71" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="71" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -113,6 +109,28 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+              <folding>
+                <element signature="e#565#574#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/views.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -132,6 +150,9 @@
         <option value="$PROJECT_DIR$/estante/urls.py" />
         <option value="$USER_HOME$/envs/dev/Lib/site-packages/registration/auth_urls.py" />
         <option value="$PROJECT_DIR$/projeto/urls.py" />
+        <option value="$PROJECT_DIR$/conf.py" />
+        <option value="$PROJECT_DIR$/modules/views.rst" />
+        <option value="$PROJECT_DIR$/index.rst" />
       </list>
     </option>
   </component>
@@ -147,7 +168,7 @@
       <path value="$PROJECT_DIR$/static/semantic/tasks/config/admin/templates/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1432" />
     <option name="y" value="-8" />
     <option name="width" value="1456" />
@@ -164,16 +185,6 @@
             <path>
               <item name="bibliotefast" type="b2602c69:ProjectViewProjectNode" />
               <item name="bibliotefast" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bibliotefast" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bibliotefast" type="462c0819:PsiDirectoryNode" />
-              <item name="estante" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bibliotefast" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bibliotefast" type="462c0819:PsiDirectoryNode" />
-              <item name="projeto" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -239,6 +250,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="-8" width="1456" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15759312" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -251,7 +263,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49641833" visible="true" weight="0.32694763" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49641833" visible="true" weight="0.29246488" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50358164" side_tool="true" weight="0.32694763" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -408,7 +420,7 @@
     <entry file="file://$PROJECT_DIR$/projeto/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
           <folding>
             <element signature="e#616#657#0" expanded="true" />
           </folding>
@@ -424,13 +436,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/estante/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="71" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="71" />
+        <state relative-caret-position="249">
+          <caret line="24" column="71" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="71" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="e#565#574#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/views.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
   </component>
 </project>
