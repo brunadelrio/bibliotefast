@@ -1,6 +1,6 @@
-from pessoa import *
+from .pessoa import *
 
-from livro import *
+from .livro import *
 
-from emprestimo import *
+from .emprestimo import *
 
