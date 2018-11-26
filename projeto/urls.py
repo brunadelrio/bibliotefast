@@ -18,6 +18,7 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^estante/', include('estante.urls', namespace="estante")),
-    # url(r'^$', views.index, name='index'),
+    url(r'^', include('estante.urls', namespace="estante")),
+    #url(r'^$', include('estante.urls', namespace="estante")),
+    #url(r'^$', views.index, name='index'),
 ]
