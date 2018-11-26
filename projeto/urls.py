@@ -19,6 +19,11 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^', include('estante.urls', namespace="estante")),
+    #url(r'^accounts/', include('registration.backends.default.urls')),
     #url(r'^$', include('estante.urls', namespace="estante")),
     #url(r'^$', views.index, name='index'),
 ]
+
+## No video abaixo parei no minuto  6:00
+## https://www.youtube.com/watch?v=qkFWkOw-ByU
+## Não estou conseguindo adicionar o url(r'^accounts/', include('registration.backends.default.urls')),
