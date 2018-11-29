@@ -23,6 +23,7 @@ class DicLivro(View):
             if emprestimo:
                 emprestimos += emprestimo
         context_dict['emprestimos'] = emprestimos
+
         return render(request, self.template, context_dict)
 
 class PerfilLivro(View):
@@ -34,9 +35,9 @@ class PerfilLivro(View):
         livro = Livro.objects.get(pk=id)
         context_dict = {}
         emprestimo = Emprestimo.objects.filter(livro_emprestado_id=livro.id)
+        context_dict['livro'] = livro
         if emprestimo:
             context_dict['emprestimo'] = emprestimo[0]
-        context_dict['livro'] = livro
         return render(request, self.template, context_dict)
 
 
@@ -52,6 +53,7 @@ class CadastraLivro(View, Pessoa):
             form = LivroEditaForm(instance=livro)
         else:
             form = LivroForm()
+
         return render(request, self.template, {'form': form, 'id': id})
 
     def post(self, request, id=None):
@@ -59,7 +61,7 @@ class CadastraLivro(View, Pessoa):
             form = LivroEditaForm(request.POST, instance=Livro.objects.get(id=id))
             if form.is_valid():
                 form.save()
-                return redirect('/estante/lista_livros/')
+                return redirect('/lista_livros/')
             else:
                 return render(request, self.template, {'form': form, 'id': id})
 
@@ -73,6 +75,7 @@ class CadastraLivro(View, Pessoa):
 
             msg = 'Livro cadastrado com sucesso!'
             form_limpo = LivroForm()
+
         return render(request, self.template, {'msg': msg, 'form': form_limpo})
 
 class Alterar_status_livro(View):
@@ -87,11 +90,11 @@ class Alterar_status_livro(View):
             if livro.status == False:
                 livro.status = True
                 livro.save()
-                return redirect('/estante/livro/' + str(livro.id))
+                return redirect('/livro/' + str(livro.id) + '/')
             else:
                 livro.status = False
                 livro.save()
-                return redirect('/estante/livro/' + str(livro.id))
+                return redirect('/livro/' + str(livro.id) + '/')
         return render(request, 'index.html')
 
 class Procurar(View):

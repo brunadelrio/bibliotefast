@@ -120,7 +120,7 @@ class Alterar_status(View):
             ativo.is_active = False
             ativo.save()
             logout(request)
-            return redirect('/estante/')
+            return redirect('/')
         else:
             username = request.POST['username']
             password = request.POST['password']

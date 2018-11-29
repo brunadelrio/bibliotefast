@@ -28,12 +28,14 @@
         {% endif %}
 
         {% if livro.dono.id != user.id %}
-            {% if emprestimo.pegou_emprestado_id == user.id %}
-               <a href="{% url 'estante:devolver_livro' emprestimo.id %}">Devolver</a>
-            {% endif %}
             {% if not emprestimo and livro.status == True %}
-                <a href="{% url 'estante:emprestimo' livro.id %}">Emprestar</a>
+                <a href="{% url 'estante:emprestimo' livro.id %}">Emprestar</a><br/>
             {% endif %}
+            {% if emprestimo.pegou_emprestado_id == user.id %}
+                <a href="{% url 'estante:devolver_livro' emprestimo.id%}">Devolver</a><br/>
+
+            {% endif %}
+
         {% endif %}
 
         <a href="{% url 'estante:lista_livros' %}">Voltar aos livros</a>

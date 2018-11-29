@@ -7,7 +7,6 @@ from datetime import date
 from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
 
-
 class Cad_emprestimo(View):
 
     @method_decorator(login_required(login_url='/estante/'))
@@ -19,17 +18,13 @@ class Cad_emprestimo(View):
         emprestimo.dt_devol = date.fromordinal(date.today().toordinal() + 15)
         emprestimo.livro_emprestado = livro
         emprestimo.pegou_emprestado = pessoa
-
         emprestimo.save()
-
         livro.status = False
         livro.save()
-
         return render(request, 'perfil.html')
 
-
-@method_decorator(login_required(login_url='/estante/'))
 def Devolver(request, id=None):
+    print("ta na funcao")
     emprestimo = Emprestimo.objects.get(pk=id)
     livro = Livro.objects.get(pk=emprestimo.livro_emprestado_id)
 
@@ -37,5 +32,4 @@ def Devolver(request, id=None):
     livro.save()
 
     emprestimo.delete()
-
     return render(request, 'perfil.html')
