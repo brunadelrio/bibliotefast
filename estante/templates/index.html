@@ -3,15 +3,16 @@
 {% load static %}
 {% block content %}
 
-    <h1>
-        Bibliotefast
-    </h1>
+<section class="ui container">
+    <article class="ui grid">
+        <div class="two wide column"></div>
+        <div class="twelve wide column centered">
 
-    <section class="ui container">
-        <article class="ui grid">
-            <div class="two wide column"></div>
-            <div class="twelve wide column" id="margem">
+        <h2 id="titulologin">
+            Bibliotefast
+        </h2>
 
+                <h3 class="ui dividing header">Login</h3>
                 <form method="POST" action="{% url 'estante:login' %}" class='ui fluid form'>
                     {% csrf_token %}
 
@@ -19,9 +20,8 @@
                         <div>{{ msg }}</div>
                     {% endif %}
 
-                    <h3>Login</h3>
-
-                    <div class="field">
+                <br/>
+                    <div class="field" id="preencher">
 
                         <label>{{ form.username.label }}</label>
                         {{ form.username }}
@@ -31,16 +31,19 @@
                     </div>
                     <br/>
 
-                    <div class="field">
+                    <div class="field" id="preencher">
                         <label>{{ form.password.label }}</label>
                         {{ form.password }}
                         {% if form.errors %}
                             {{ form.non_field_errors }}
                         {% endif %}
-                    </div>
-                    <br/>
+                    </div></div>
+
+
+            <div class="two wide column"></div>
+         <div class="twelve wide column centered">
                     <div align="center">
-                        <button type="submit" class="ui blue button">{% blocktrans %} Entrar {% endblocktrans %}</button>
+                        <button type="submit" class="ui button" id="salvarsemmargem">{% blocktrans %} Entrar {% endblocktrans %}</button>
                         <br/><br/>
                         <a href="{% url 'estante:cadastro-pessoa' %}">{% blocktrans %} Ainda não tem conta? Crie uma agora
                             mesmo! {% endblocktrans %}</a>

@@ -1,4 +1,6 @@
-h1 {
+#titulologin {
+    margin-top: 5%;
+    margin-bottom: 8%;
     font-family: "Great Vibes";
     text-align: center;
     font-size: 300%;
@@ -8,9 +10,11 @@ h1 {
     margin-top: 4%;
 }
 
+
 #stats {
     margin-top: 7%;
 }
+
 
 #salvar {
     margin-top: 2.5%;
@@ -18,9 +22,33 @@ h1 {
     color: aliceblue;
 }
 
+#salvarsemmargem {
+    background-color: #2f2735;
+    color: aliceblue;
+}
+
 #logo_menu {
     margin-top: 15%;
 }
+
+#preencher{
+
+    background-clip: border-box;
+    width: 50%;
+    text-align: center;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    # box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+h1 {
+    font-family: "Great Vibes";
+    text-align: center;
+    font-size: 300%;
+}
+
 
 html {
     min-width: 100%;

@@ -1,2 +1,5 @@
 # Django stuff:
 *.log
+
+#Pycharm
+.idea/
