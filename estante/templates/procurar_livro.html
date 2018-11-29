@@ -28,9 +28,9 @@
         {% endfor %}
     {% endif %}
 
-    <a href="{% url 'estante:lista_livros' %}">Voltar a sua biblioteca</a><br/>
+    <a href="{% url 'estante:lista_livros' %}">Voltar à sua biblioteca</a><br/>
     {% else %}
-        <h4>Você não esta logado no sistema</h4>
+        <h4>Você não está logado no sistema</h4>
         <a href="{% url 'estante:login' %}">Login</a><br/>
     {% endif %}
             </div>

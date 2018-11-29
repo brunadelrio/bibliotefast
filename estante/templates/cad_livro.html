@@ -1,10 +1,11 @@
 {% extends 'base.html' %}
+{% load i18n %}
 {% block content %}
     {% if user.is_authenticated %}
         {% if id == None %}
-            <h1>Cadastro de Livro</h1>
+            <h1>{% trans "Cadastro de Livro" %}</h1>
         {% else %}
-            <h1>Edição de Livro</h1>
+            <h1>{% trans "Edição de Livro" %}</h1>
         {% endif %}
 
         <section class="ui container">
@@ -53,15 +54,14 @@
                         {{ form.ano.errors }}
                     {% endif %}<br/>
 
-                    <button type="submit" class="ui verde button">Salvar</button>
+                    <button type="submit" class="ui blue button">Salvar</button>
                     <br>
-                    <a href="{% url 'estante:perfil' %}">Voltar ao perfil</a>
                     </form>
                 </div>
             </article>
         </section>
     {% else %}
-        <h4>Você não esta logado no sistema</h4>
+        <h4>{% trans "Você não esta logado no sistema" %}</h4>
         <a href="{% url 'estante:login' %}">Login</a><br/>
     {% endif %}
 

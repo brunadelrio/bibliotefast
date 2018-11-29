@@ -12,9 +12,13 @@ https://docs.djangoproject.com/en/1.8/ref/settings/
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
+from django.utils.translation import ugettext_lazy as _
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+LOCALE_PATHS = (
+    os.path.join(BASE_DIR, 'locale'),
+)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
@@ -41,11 +45,11 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'estante',
     'registration',
-
 )
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -68,6 +72,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.i18n',
             ],
         },
     },
@@ -92,6 +97,11 @@ DATABASES = {
 
 LANGUAGE_CODE = 'pt-br'
 
+LANGUAGES = (
+    ('en', _('English')),
+    ('pt-br', _('Brazilian Portuguese')),
+)
+
 TIME_ZONE = 'UTC'
 
 USE_I18N = True
@@ -100,6 +110,7 @@ USE_L10N = True
 
 USE_TZ = True
 
+USE_I18NU = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/

@@ -5,12 +5,13 @@ from estante.forms.validators.pessoa_validator import *
 from estante.models import Pessoa
 from django import forms
 from django.contrib.auth import authenticate
+from django.utils.translation import ugettext_lazy as _
 
 
 class PessoaForm(forms.ModelForm):
     cpf = forms.CharField(label='CPF')
-    endereco = forms.CharField(max_length=30, label='Endereço')
-    telefone = forms.IntegerField(label='Telefone')
+    endereco = forms.CharField(max_length=30, label=_('Endereço'))
+    telefone = forms.IntegerField(label=_('Telefone'))
     password = forms.CharField(widget=forms.PasswordInput())
 
     class Meta:
@@ -24,7 +25,7 @@ class PessoaForm(forms.ModelForm):
     def clean_username(self):
         username=self.cleaned_data['username']
         if Pessoa.objects.filter(username=username).exists():
-            raise forms.ValidationError('Usuário já existe')
+            raise forms.ValidationError(_('Usuário já existe'))
         return username
 
     def clean_first_name(self):
@@ -35,8 +36,8 @@ class PessoaForm(forms.ModelForm):
 
 class PessoaEditForm(forms.ModelForm):
     cpf = forms.IntegerField(label='CPF')
-    endereco = forms.CharField(max_length=30, label='Endereço')
-    telefone = forms.IntegerField(label='Telefone')
+    endereco = forms.CharField(max_length=30, label=_('Endereço'))
+    telefone = forms.IntegerField(label=_('Telefone'))
     password = forms.CharField(widget=forms.PasswordInput())
 
     class Meta:
@@ -65,10 +66,10 @@ class LoginForm(forms.ModelForm):
     def clean(self):
         username = self.cleaned_data.get('username')
         password = self.cleaned_data.get('password')
-        if Pessoa.objects.filter(username = username).exists():
+        if Pessoa.objects.filter(username=username).exists():
             username = Pessoa.objects.get(username=username)
             if authenticate(username=username, password=password) == None:
-                raise forms.ValidationError(("Usuario ou senha incorretos"))
+                raise forms.ValidationError(_("Usuário ou senha incorretos"))
         return self.cleaned_data
 
     def clean_username(self):

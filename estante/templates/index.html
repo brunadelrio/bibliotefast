@@ -1,9 +1,10 @@
 {% extends 'base.html' %}
+{% load i18n %}
 {% load static %}
 {% block content %}
 
     <h1>
-        Login
+        Bibliotefast
     </h1>
 
     <section class="ui container">
@@ -18,6 +19,7 @@
                         <div>{{ msg }}</div>
                     {% endif %}
 
+                    <h3>Login</h3>
 
                     <div class="field">
 
@@ -38,10 +40,10 @@
                     </div>
                     <br/>
                     <div align="center">
-                        <button type="submit" class="ui blue button">Entrar</button>
+                        <button type="submit" class="ui blue button">{% blocktrans %} Entrar {% endblocktrans %}</button>
                         <br/><br/>
-                        <a href="{% url 'estante:cadastro-pessoa' %}">Ainda não tem conta? Crie uma agora
-                            mesmo!</a>
+                        <a href="{% url 'estante:cadastro-pessoa' %}">{% blocktrans %} Ainda não tem conta? Crie uma agora
+                            mesmo! {% endblocktrans %}</a>
                     </div>
                 </form>
             </div>

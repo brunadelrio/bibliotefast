@@ -1,5 +1,13 @@
 {% extends 'base.html' %}
+{% load i18n %}
 {% block content %}
-    <h3>Página não encontrada erro 404</h3>
-    <a href="{% url 'estante:perfil' %}">Voltar a Página Inicial</a>
+    <h1>{% trans "ERRO 404 - Página não encontrada" %}</h1>
+    <section class="ui container">
+            <article class="ui grid">
+                <div class="two wide column"></div>
+                <div class="twelve wide column" id="margem">
+                    <a href="{% url 'estante:perfil' %}">{% trans "Voltar à Página Inicial" %}</a>
+                </div>
+            </article>
+    </section>
 {% endblock content %}

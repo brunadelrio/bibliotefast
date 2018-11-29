@@ -6,6 +6,7 @@ from django.contrib.auth import authenticate, login, logout
 from django.shortcuts import render, render_to_response
 from estante.forms.pessoa import PessoaForm, PessoaEditForm, LoginForm
 from django.core.exceptions import ObjectDoesNotExist
+from django.utils.translation import ugettext_lazy as _
 
 
 class CadastraPessoa(View):
@@ -46,7 +47,7 @@ class CadastraPessoa(View):
                 request.session.set_expiry(6000)
                 request.session.get_expire_at_browser_close()
 
-                return render(request, self.template2, {'msg': 'Informações alteradas com sucesso!'})
+                return render(request, self.template2, {'msg': _('Informações alteradas com sucesso!')})
             else:
                 print(form.errors)
             return render(request, self.template, {'form': form})
@@ -103,7 +104,7 @@ class Login(View):
                 request.session['first_name'] = pessoa.first_name
                 request.session.set_expiry(6000)
                 request.session.get_expire_at_browser_close()
-                return render(request, self.template2, {'msg': 'Login efetuado com sucesso!'})
+                return render(request, self.template2, {'msg': _('Login efetuado com sucesso!')})
         else:
             return render(request, self.template, {'form': LoginForm})
 
@@ -134,4 +135,4 @@ class Alterar_status(View):
                 else:
                     return render(request, self.template, {'msg': 'Este usuario já esta ativo','form':LoginForm})
             else:
-                return render(request, self.template, {'msg': 'Usuario ou senha incorretos','form':LoginForm})
+                return render(request, self.template, {'msg': _('Usuario ou senha incorretos'),'form':LoginForm})

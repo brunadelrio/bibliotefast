@@ -1,28 +1,38 @@
 {% extends 'base.html' %}
+{% load i18n %}
 {% block content %}
-     <form method="POST" action="{% url 'estante:ativar' %}" class='ui form'>
 
-         {% if msg %}
-            <p>{{ msg }}</p>
-         {% endif %}
+    <h1>{% trans "Ativar usuário inativo" %}</h1>
 
-         <h4>Ativar usuário inativo</h4>
+    <section class="ui container">
+        <article class="ui grid">
+            <div class="two wide column"></div>
+            <div class="twelve wide column" id="margem">
 
-         {% csrf_token %}
+                {% if msg %}
+                    <p>{{ msg }}</p>
+                {% endif %}
 
-         {% if form.username.errors %}
-            {{ form.username.errors }}
-         {% endif %}
-         <label>{{ form.username.label }}</label>
-         {{ form.username }} </br>
+                <form method="POST" action="{% url 'estante:ativar' %}" class='ui fluid form'>
 
-         {% if form.password.errors %}
-             {{ form.password.errors }}
-         {% endif %}
-         <label>{{ form.password.label }}</label>
-         {{ form.password }} </br>
+                    {% csrf_token %}
 
-         <button type="submit" class="ui verde button">Ativar</button><br>
-         <a href="{% url 'estante:login' %}">Voltar ao index</a>
-    </form>
+                    {% if form.username.errors %}
+                        {{ form.username.errors }}
+                    {% endif %}
+                    <label>{{ form.username.label }}</label>
+                    {{ form.username }} <br/>
+
+                    {% if form.password.errors %}
+                        {{ form.password.errors }}
+                    {% endif %}
+                    <label>{{ form.password.label }}</label>
+                    {{ form.password }} <br/>
+
+                    <button type="submit" class="ui blue button">{% trans "Ativar" %}</button>
+                    <br/>
+                </form>
+            </div>
+        </article>
+    </section>
 {% endblock content %}
