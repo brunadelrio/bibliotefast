@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2437b32b-2463-4b9c-a9ed-9ee069f129a4" name="Default" comment="&quot;Pagina de login alterada, os nomes Filipi e Felipe foram corrigidos&quot;">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/genindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/genindex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/modules/views.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/modules/views.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estante/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/estante/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estante/models/emprestimo.py" beforeDir="false" afterPath="$PROJECT_DIR$/estante/models/emprestimo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estante/models/livro.py" beforeDir="false" afterPath="$PROJECT_DIR$/estante/models/Livro.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estante/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/estante/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estante/templates/cad_livro.html" beforeDir="false" afterPath="$PROJECT_DIR$/estante/templates/cad_livro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estante/templates/cad_pessoa.html" beforeDir="false" afterPath="$PROJECT_DIR$/estante/templates/cad_pessoa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estante/templates/ganbi.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/estante/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/estante/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estante/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/estante/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estante/views/emprestimo.py" beforeDir="false" afterPath="$PROJECT_DIR$/estante/views/emprestimo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estante/views/livro.py" beforeDir="false" afterPath="$PROJECT_DIR$/estante/views/livro.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/estante/views/pessoa.py" beforeDir="false" afterPath="$PROJECT_DIR$/estante/views/pessoa.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/populate_l.csv" beforeDir="false" afterPath="$PROJECT_DIR$/populate_l.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/populate_livro.py" beforeDir="false" afterPath="$PROJECT_DIR$/populate_livro.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +35,7 @@
           <entry key="gitignore" value="2" />
           <entry key="html" value="64" />
           <entry key="po" value="704" />
-          <entry key="py" value="1602" />
+          <entry key="py" value="1658" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -66,7 +43,7 @@
           <entry key="HTML" value="64" />
           <entry key="Locale" value="704" />
           <entry key="PLAIN_TEXT" value="1183" />
-          <entry key="Python" value="1602" />
+          <entry key="Python" value="1658" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -89,11 +66,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/populate_livro.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="42" column="75" selection-start-line="42" selection-start-column="75" selection-end-line="42" selection-end-column="75" />
+            <state relative-caret-position="117">
+              <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -128,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/estante/views/pessoa.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+            <state relative-caret-position="300">
+              <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
               <folding>
                 <element signature="e#15#52#0" expanded="true" />
               </folding>
@@ -224,8 +201,8 @@
         <option value="$PROJECT_DIR$/populate_l.csv" />
         <option value="$PROJECT_DIR$/estante/models/pessoa.py" />
         <option value="$PROJECT_DIR$/populate_user.csv" />
-        <option value="$PROJECT_DIR$/estante/views/pessoa.py" />
         <option value="$PROJECT_DIR$/populate_livro.py" />
+        <option value="$PROJECT_DIR$/estante/views/pessoa.py" />
       </list>
     </option>
   </component>
@@ -669,20 +646,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/estante/views/pessoa.py">
+    <entry file="file://$PROJECT_DIR$/populate_livro.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-          <folding>
-            <element signature="e#15#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/populate_user.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="73" lean-forward="true" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
+        <state relative-caret-position="117">
+          <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -690,6 +657,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/populate_user.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="73" lean-forward="true" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
         </state>
       </provider>
     </entry>
@@ -703,10 +677,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/populate_livro.py">
+    <entry file="file://$PROJECT_DIR$/estante/views/pessoa.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="42" column="75" selection-start-line="42" selection-start-column="75" selection-end-line="42" selection-end-column="75" />
+        <state relative-caret-position="300">
+          <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+          <folding>
+            <element signature="e#15#52#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

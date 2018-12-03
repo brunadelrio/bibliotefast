@@ -43,7 +43,6 @@ class CadastraPessoa(View):
                 request.session['endereco'] = pessoa.endereco
                 request.session['telefone'] = pessoa.telefone
                 request.session['email'] = pessoa.email
-                #request.session['first_name'] = pessoa.first_name
                 request.session.set_expiry(6000)
                 request.session.get_expire_at_browser_close()
 

@@ -21,8 +21,6 @@ def populate():
     print('Populating %d books...' % len(livros))
     lista = cria_lista_usuario()
     qtd = len(lista)
-    print(qtd)
-    print("\n")
     i = 0
     for livro in livros:
         id_livro, titulo, autor, editora,ano,dono = livro.rstrip().split(',')
