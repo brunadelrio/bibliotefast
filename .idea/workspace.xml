@@ -3,20 +3,30 @@
   <component name="ChangeListManager">
     <list default="true" id="2437b32b-2463-4b9c-a9ed-9ee069f129a4" name="Default" comment="&quot;Pagina de login alterada, os nomes Filipi e Felipe foram corrigidos&quot;">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/bibliotefast.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bibliotefast.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_build/html/genindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/genindex.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_build/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_build/html/modules/views.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/modules/views.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_build/html/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/search.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estante/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/estante/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estante/models/emprestimo.py" beforeDir="false" afterPath="$PROJECT_DIR$/estante/models/emprestimo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estante/models/livro.py" beforeDir="false" afterPath="$PROJECT_DIR$/estante/models/Livro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estante/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/estante/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/estante/templates/cad_livro.html" beforeDir="false" afterPath="$PROJECT_DIR$/estante/templates/cad_livro.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/estante/templates/cad_pessoa.html" beforeDir="false" afterPath="$PROJECT_DIR$/estante/templates/cad_pessoa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estante/templates/ganbi.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/estante/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/estante/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estante/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/estante/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estante/views/emprestimo.py" beforeDir="false" afterPath="$PROJECT_DIR$/estante/views/emprestimo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estante/views/livro.py" beforeDir="false" afterPath="$PROJECT_DIR$/estante/views/livro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estante/views/pessoa.py" beforeDir="false" afterPath="$PROJECT_DIR$/estante/views/pessoa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/populate_l.csv" beforeDir="false" afterPath="$PROJECT_DIR$/populate_l.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/populate_livro.py" beforeDir="false" afterPath="$PROJECT_DIR$/populate_livro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/menu.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,31 +40,102 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1236006961">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="csv" value="1180" />
+          <entry key="dummy" value="1" />
+          <entry key="gitignore" value="2" />
+          <entry key="html" value="64" />
+          <entry key="po" value="704" />
+          <entry key="py" value="1602" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="64" />
+          <entry key="Locale" value="704" />
+          <entry key="PLAIN_TEXT" value="1183" />
+          <entry key="Python" value="1602" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="csv" value="2" />
+          <entry key="html" value="4" />
+          <entry key="po" value="1" />
+          <entry key="py" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="4" />
+          <entry key="Locale" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="13" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/estante/templates/index.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/populate_livro.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="297">
+              <caret line="42" column="75" selection-start-line="42" selection-start-column="75" selection-end-line="42" selection-end-column="75" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/populate_l.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/populate_user.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" column="73" lean-forward="true" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/estante/templates/cad_livro.html">
+        <entry file="file://$PROJECT_DIR$/estante/models/pessoa.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="56" column="64" selection-start-line="56" selection-start-column="64" selection-end-line="56" selection-end-column="64" />
+            <state relative-caret-position="105">
+              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/estante/views/pessoa.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+              <folding>
+                <element signature="e#15#52#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,6 +168,7 @@
       <find>thiago</find>
       <find>gitignore</find>
       <find>.gitignore</find>
+      <find>editar</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/estante</dir>
@@ -106,7 +188,6 @@
         <option value="$PROJECT_DIR$/estante/forms/validators/__init__.py" />
         <option value="$PROJECT_DIR$/estante/forms/__init__.py" />
         <option value="$PROJECT_DIR$/estante/views/livro.py" />
-        <option value="$PROJECT_DIR$/estante/urls.py" />
         <option value="$PROJECT_DIR$/../envs/dev/Lib/site-packages/registration/auth_urls.py" />
         <option value="$PROJECT_DIR$/modules/views.rst" />
         <option value="$PROJECT_DIR$/index.rst" />
@@ -120,16 +201,11 @@
         <option value="$PROJECT_DIR$/estante/templates/perfil_livro.html" />
         <option value="$PROJECT_DIR$/estante/templates/procurar_livro.html" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/estante/views/pessoa.py" />
-        <option value="$PROJECT_DIR$/projeto/settings.py" />
         <option value="$PROJECT_DIR$/estante/templates/404.html" />
         <option value="$PROJECT_DIR$/estante/templates/alterar_status.html" />
         <option value="$PROJECT_DIR$/estante/templates/perfil.html" />
-        <option value="$PROJECT_DIR$/estante/templates/base.html" />
         <option value="$PROJECT_DIR$/estante/templates/lista_livros.html" />
-        <option value="$PROJECT_DIR$/locale/en/LC_MESSAGES/django.po" />
         <option value="$PROJECT_DIR$/estante/templates/cad_livro.html" />
-        <option value="$PROJECT_DIR$/estante/templates/cad_pessoa.html" />
         <option value="$PROJECT_DIR$/static/js/menu.js" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
         <option value="$PROJECT_DIR$/_build/html/index.html" />
@@ -137,22 +213,46 @@
         <option value="$PROJECT_DIR$/_build/html/search.html" />
         <option value="$PROJECT_DIR$/_build/html/modules/views.html" />
         <option value="$PROJECT_DIR$/conf.py" />
-        <option value="$PROJECT_DIR$/estante/templates/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/projeto/settings.py" />
+        <option value="$PROJECT_DIR$/estante/templates/index.html" />
+        <option value="$PROJECT_DIR$/estante/templates/base.html" />
+        <option value="$PROJECT_DIR$/estante/templates/cad_pessoa.html" />
+        <option value="$PROJECT_DIR$/estante/urls.py" />
+        <option value="$PROJECT_DIR$/locale/en/LC_MESSAGES/django.po" />
+        <option value="$PROJECT_DIR$/estante/views/emprestimo.py" />
+        <option value="$PROJECT_DIR$/populate_l.csv" />
+        <option value="$PROJECT_DIR$/estante/models/pessoa.py" />
+        <option value="$PROJECT_DIR$/populate_user.csv" />
+        <option value="$PROJECT_DIR$/estante/views/pessoa.py" />
+        <option value="$PROJECT_DIR$/populate_livro.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="252" />
-    <option name="y" value="238" />
-    <option name="width" value="1366" />
-    <option name="height" value="743" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/static/semantic/package.json" />
+      <path value="$PROJECT_DIR$/static/semantic/tasks/config/admin/templates/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="65" />
+    <option name="y" value="52" />
+    <option name="width" value="1291" />
+    <option name="height" value="687" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,25 +269,29 @@
               <item name="bibliotefast" type="b2602c69:ProjectViewProjectNode" />
               <item name="bibliotefast" type="462c0819:PsiDirectoryNode" />
               <item name="estante" type="462c0819:PsiDirectoryNode" />
-              <item name="forms" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bibliotefast" type="b2602c69:ProjectViewProjectNode" />
               <item name="bibliotefast" type="462c0819:PsiDirectoryNode" />
               <item name="estante" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bibliotefast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bibliotefast" type="462c0819:PsiDirectoryNode" />
+              <item name="projeto" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/projeto/bibliotefast" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
@@ -247,7 +351,7 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
@@ -275,10 +379,10 @@
     <option name="totallyTimeSpent" value="9917000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="252" y="238" width="1366" height="743" extended-state="0" />
+    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24018127" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24860558" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -290,10 +394,11 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50608826" side_tool="true" weight="0.32715008" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.3284553" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4939117" weight="0.32520324" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.3284553" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4939117" visible="true" weight="0.29503107" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3282313" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" weight="0.3284553" />
+      <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32919255" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -304,66 +409,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/estante/templates/perfil_livro.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/templates/procurar_livro.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/views/pessoa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="108" column="68" selection-start-line="108" selection-start-column="68" selection-end-line="108" selection-end-column="68" />
-          <folding>
-            <element signature="e#15#52#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.coverage" />
-    <entry file="file://$PROJECT_DIR$/populate_livro.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/populate_l.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/templates/perfil.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/locale/en/LC_MESSAGES/django.po" />
-    <entry file="file://$PROJECT_DIR$/estante/forms/livro.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
-          <caret line="4" selection-start-line="4" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/models/emprestimo.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/models/livro.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/estante/templates/404.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -391,33 +440,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ifcenv/lib/python3.6/site-packages/django/conf/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1049">
-          <caret line="197" selection-start-line="197" selection-end-line="197" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../ifcenv/lib/python3.6/site-packages/django/conf/__init__.py" />
     <entry file="file://$PROJECT_DIR$/_build/html/searchindex.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ifcenv/lib/python3.6/site-packages/django/conf/urls/i18n.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../ifcenv/lib/python3.6/site-packages/django/conf/urls/i18n.py" />
     <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ifcenv/lib/python3.6/site-packages/django/forms/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../ifcenv/lib/python3.6/site-packages/django/forms/utils.py" />
     <entry file="file://$PROJECT_DIR$/_build/doctrees/modules/views.doctree">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -434,20 +465,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/estante/templates/lista_livros.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="46" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/templates/ganbi.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/estante/templates/ganbi.html" />
     <entry file="file://$PROJECT_DIR$/estante/templates/alterar_status.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -455,22 +473,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projeto/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="100" column="6" selection-start-line="100" selection-start-column="6" selection-end-line="100" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/templates/cad_pessoa.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projeto/urls.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -479,20 +483,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/sectional.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ifcenv/lib/python3.6/site-packages/django/templatetags/i18n.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="417" column="4" selection-start-line="417" selection-start-column="4" selection-end-line="417" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/sectional.rnc" />
+    <entry file="file://$PROJECT_DIR$/../ifcenv/lib/python3.6/site-packages/django/templatetags/i18n.py" />
     <entry file="file://$PROJECT_DIR$/estante/forms/pessoa.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-165">
@@ -512,27 +504,10 @@
         <state relative-caret-position="-675" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/estante/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/estante/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="14" column="71" lean-forward="true" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_build/html/genindex.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="92" column="101" lean-forward="true" selection-start-line="92" selection-start-column="66" selection-end-line="92" selection-end-column="101" />
-          <folding>
-            <element signature="e#2501#2507#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -540,9 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="105" column="101" lean-forward="true" selection-start-line="105" selection-start-column="66" selection-end-line="105" selection-end-column="101" />
-          <folding>
-            <element signature="e#3636#3642#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -550,9 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="104" column="65" lean-forward="true" selection-start-line="104" selection-start-column="65" selection-end-line="104" selection-end-column="66" />
-          <folding>
-            <element signature="e#2993#2999#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -560,9 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="88" column="101" selection-start-line="88" selection-start-column="101" selection-end-line="88" selection-end-column="101" />
-          <folding>
-            <element signature="e#2621#2627#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -583,13 +549,6 @@
     <entry file="file://$PROJECT_DIR$/.idea/dataSources.local.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/estante/templates/cad_livro.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="56" column="64" selection-start-line="56" selection-start-column="64" selection-end-line="56" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/semantic/tasks/admin/distributions/create.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-95">
@@ -597,17 +556,157 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/estante/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/estante/templates/cad_livro.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="840">
+          <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="2" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projeto/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="899">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estante/templates/perfil.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estante/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estante/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="85" selection-start-line="32" selection-start-column="85" selection-end-line="32" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estante/templates/lista_livros.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="46" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estante/forms/livro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#15#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estante/templates/cad_pessoa.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estante/models/emprestimo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estante/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/en/LC_MESSAGES/django.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="107" column="12" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estante/models/Livro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estante/views/livro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+          <folding>
+            <element signature="e#14#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estante/views/emprestimo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estante/views/pessoa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+          <folding>
+            <element signature="e#15#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/populate_user.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="73" lean-forward="true" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/populate_l.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estante/models/pessoa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/populate_livro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="42" column="75" selection-start-line="42" selection-start-column="75" selection-end-line="42" selection-end-column="75" />
         </state>
       </provider>
     </entry>

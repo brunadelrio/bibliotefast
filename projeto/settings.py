@@ -112,6 +112,7 @@ USE_TZ = True
 
 USE_I18NU = True
 
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 

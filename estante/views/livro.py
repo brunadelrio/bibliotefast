@@ -2,7 +2,7 @@
 from estante.models import Pessoa
 from django.views.generic import View
 from django.shortcuts import render, redirect
-from estante.models.livro import Livro
+from estante.models.Livro import Livro
 from estante.models.emprestimo import Emprestimo
 from estante.forms.livro import LivroForm, LivroEditaForm
 from django.contrib.auth.decorators import login_required

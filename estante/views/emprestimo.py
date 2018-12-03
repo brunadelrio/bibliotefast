@@ -1,6 +1,6 @@
 from django.views.generic import View
 from estante.models.emprestimo import Emprestimo
-from estante.models.livro import Livro
+from estante.models.Livro import Livro
 from estante.models.pessoa import Pessoa
 from django.shortcuts import render
 from datetime import date
@@ -12,7 +12,10 @@ class Cad_emprestimo(View):
     @method_decorator(login_required(login_url='/estante/'))
     def get(self, request, id=None):
         livro = Livro.objects.get(pk=id)
+        print(livro)
         pessoa = Pessoa.objects.get(pk=request.user.id)
+        l=request.user.id
+        print(l)
         emprestimo = Emprestimo()
         emprestimo.dt_emprest = date.today()
         emprestimo.dt_devol = date.fromordinal(date.today().toordinal() + 15)

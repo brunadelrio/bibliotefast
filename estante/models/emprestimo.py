@@ -1,6 +1,6 @@
 from django.db import models
 from estante.models.pessoa import Pessoa
-from estante.models.livro import Livro
+from estante.models.Livro import Livro
 
 
 class Emprestimo(models.Model):

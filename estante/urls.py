@@ -15,7 +15,6 @@ urlpatterns = [
     url(r'^esconder/(?P<id>\d+)/$', Alterar_status_livro.as_view(), name='esconder_livro'),
     url(r'^ativar/$', Alterar_status.as_view(), name='ativar'),
     url(r'^perfil/$', TemplateView.as_view(template_name='perfil.html'), name='perfil'),
-    url(r'^editar_perfil/$', CadastraPessoa.as_view(), name='editar_perfil'),
     url(r'^lista_livros/$', DicLivro.as_view(), name='lista_livros'),
     url(r'^livro/(?P<id>\w+)/$', PerfilLivro.as_view(), name='perfil_livro'),
     url(r'^emprestimo/(?P<id>\w+)/$', Cad_emprestimo.as_view(), name='emprestimo'),

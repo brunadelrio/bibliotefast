@@ -16,6 +16,7 @@ class CadastraPessoa(View):
 
     def get(self, request):
         id = request.user.id
+        print(id)
         if id:
             pessoa = Pessoa.objects.get(pk=id)
             form = PessoaEditForm(instance=pessoa)
@@ -28,7 +29,6 @@ class CadastraPessoa(View):
         if id:
             pessoa = Pessoa.objects.get(pk=id)
             form = PessoaEditForm(instance=pessoa, data=request.POST)
-            print (form)
             if form.is_valid():
                 form = form.save(commit=False)
                 form.set_password(request.POST['password'])
@@ -43,7 +43,7 @@ class CadastraPessoa(View):
                 request.session['endereco'] = pessoa.endereco
                 request.session['telefone'] = pessoa.telefone
                 request.session['email'] = pessoa.email
-                request.session['first_name'] = pessoa.first_name
+                #request.session['first_name'] = pessoa.first_name
                 request.session.set_expiry(6000)
                 request.session.get_expire_at_browser_close()
 

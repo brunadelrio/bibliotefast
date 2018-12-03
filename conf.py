@@ -25,8 +25,8 @@ settings.configure()
 # -- Project information -----------------------------------------------------
 
 project = 'Projeto Bibliotefast'
-copyright = '2018, Bruna Del Rio, Gustavo Miranda, Viviane Farias, Filipi Rodrigues, Felipe Guimarães.'
-author = 'Bruna Del Rio, Gustavo Miranda, Viviane Farias, Filipi Rodrigues, Felipe Guimarães.'
+copyright = '2018, Bruna Del Rio, Gustavo Miranda, Viviane Faris, Felipi, Felipe Thiago'
+author = 'Bruna Del Rio, Gustavo Miranda, Viviane Faris, Felipi, Felipe Thiago'
 
 # The short X.Y version
 version = ''
@@ -140,7 +140,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'ProjetoBibliotefast.tex', 'Projeto Bibliotefast Documentation',
-     'Bruna Del Rio, Gustavo Miranda, Viviane Farias, Filipi Rodrigues, Felipe Guimarães', 'manual'),
+     'Bruna Del Rio, Gustavo Miranda, Viviane Faris, Felipi, Felipe Thiago', 'manual'),
 ]
 
 

@@ -3,7 +3,7 @@
 {% block content %}
 
     <h1>
-        {% trans "Cadastrar Usuário" %}
+        {% trans "Editar Usuário" %}
     </h1>
 
     <section class="ui container">
@@ -68,7 +68,8 @@
                         {{ form.endereco.errors }}
                     {% endif %}
                     <div align="center">
-                        <button type="submit" class="ui button" id="salvar">{% blocktrans %}Salvar{% endblocktrans %}</button>
+                        <br/>
+                        <button type="submit" class="ui blue button">{% blocktrans %}Salvar{% endblocktrans %}</button>
                     </div>
                 </form>
 
